@@ -44,8 +44,8 @@ def make_celery(app):
 celery = make_celery(app)
 
 # Telegram Bot Token and ID
-TELEGRAM_BOT_TOKEN = '8000764348:AAEytputhjTO8Sp7QA939fUCm8ja6YQI23I'
-TELEGRAM_BOT_ID = '@Koshole_grooh_bot'
+TELEGRAM_BOT_TOKEN = 'you_token_bot'
+TELEGRAM_BOT_ID = '@iduserbot'
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 # Helper functions
